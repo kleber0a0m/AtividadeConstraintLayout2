@@ -21,8 +21,9 @@
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="257dp"
+                    android:scaleType = "centerCrop"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -42,6 +43,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
+                    android:layout_marginTop="12dp"
                     android:text="Utilizando Imagens no Android"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
                     app:layout_constraintStart_toStartOf="parent"
@@ -62,9 +64,10 @@
                     android:id="@+id/textView5"
                     android:layout_width="0dp"
                     android:layout_height="421dp"
-                    android:layout_marginTop="36dp"
+                    android:layout_marginTop="20dp"
                     android:text=" freestar Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac velit tellus. Sed ligula diam, euismod vel pulvinar at, luctus tristique libero. Phasellus aliquam feugiat sapien vel eleifend. Donec imperdiet leo et ultricies tincidunt. Quisque ultricies nisl nisi, ut faucibus risus maximus id. Quisque mi purus, sagittis vel ante in, egestas iaculis purus. Vestibulum fermentum mi eget felis iaculis ultrices. Donec feugiat nunc vitae hendrerit egestas. Praesent vulputate ligula lacus, ac lobortis nulla hendrerit eget. Phasellus dictum commodo orci non pharetra. Aliquam metus dui, tincidunt convallis turpis in, malesuada auctor purus. Nulla facilisi. Vestibulum interdum tempus urna a venenatis. Vivamus id mauris rutrum, congue ante eget, interdum tellus.  Donec id mi ut massa congue imperdiet sed eu orci. Sed hendrerit magna elit, ac eleifend quam semper id. Curabitur in ipsum ligula. Integer molestie dapibus dui, sed rhoncus tellus hendrerit vel. Integer tincidunt velit sed massa dignissim gravida. Nunc convallis diam non luctus tristique. Vivamus vestibulum purus blandit eros molestie, in ullamcorper lectus lacinia. Fusce porttitor faucibus ultricies. Suspendisse tempor ante ut nibh hendrerit, non sodales dolor placerat. Donec lacinia metus ut posuere interdum. Etiam pulvinar, libero non semper pulvinar, massa lectus pulvinar sem, vel sollicitudin neque enim eu diam. Nunc dictum magna vitae sollicitudin accumsan. Sed pretium vulputate semper. Morbi id libero sem."
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="@+id/textView2"
                     app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
